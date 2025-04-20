@@ -12,7 +12,7 @@
 Важно! Регулировка яркости освещения происходит при помощи широтно-импульсной модуляции (ШИМ) и расчитано на светодиодное освещение, подключенное через силовые ключи.
 
 ## Структура репозитория
-esp32-aeroponics-controller/
+esp32-aeroponics-controller/  
 ├── LICENSE  
 ├── README.md  
 ├── CHANGELOG.md  
@@ -21,7 +21,7 @@ esp32-aeroponics-controller/
 ├── docs/  
 │   └── web-ui-screenshot.png  
 └── src/  
-  └── main.ino  
+ㅤ└── main.ino  
 
 ## Быстрый старт
 1. Клонировать репозиторий:
