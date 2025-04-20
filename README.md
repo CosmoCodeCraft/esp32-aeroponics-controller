@@ -29,7 +29,7 @@ esp32-aeroponics-controller/
    cd esp32-aeroponics-controller
 2. Открыть src/main.ino в Arduino IDE или PlatformIO.
 3. Загрузить на плату ESP32.
-4. Подключиться к Wi‑Fi SSID ESP32_AP, пароль 12345678.
+4. Подключиться к Wi‑Fi (SSID "ESP32_AP", пароль "12345678").
 5. Открыть в браузере http://192.168.4.1/
 
 ## Пины и настройки
