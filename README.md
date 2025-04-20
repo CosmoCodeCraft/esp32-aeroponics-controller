@@ -20,7 +20,7 @@ esp32-aeroponics-controller/
 ├── docs/  
 │   └── web-ui-screenshot.png  
 └── src/  
-└── main.ino
+    └── main.ino
 
 ## Быстрый старт
 1. Клонировать репозиторий:
