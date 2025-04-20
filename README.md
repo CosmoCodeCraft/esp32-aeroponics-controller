@@ -17,10 +17,10 @@ esp32-aeroponics-controller/
 ├── LICENSE  
 ├── README.md  
 ├── .gitignore  
-├── docs/  
-│   └── web-ui-screenshot.png  
-└── src/  
-    └── main.ino
+├── src/  
+│   └── main.ino  
+└── docs/  
+    └── web-ui-screenshot.png
 
 ## Быстрый старт
 1. Клонировать репозиторий:
