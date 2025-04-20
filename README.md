@@ -9,15 +9,15 @@ ESP32‑контроллер для аэропонной фермы с:
 
 ## Структура репозитория
 esp32-aeroponics-controller/
-├── LICENSE
-├── README.md
-├── CHANGELOG.md
-├── CONTRIBUTING.md
-├── .gitignore
-├── docs/
-│   └── web-ui-screenshot.png
-└── src/
-└── main.ino
+- ├── LICENSE
+- ├── README.md
+- ├── CHANGELOG.md
+- ├── CONTRIBUTING.md
+- ├── .gitignore
+- ├── docs/
+- │   └── web-ui-screenshot.png
+- └── src/
+- └── main.ino
 
 ## Быстрый старт
 1. Клонировать репозиторий:
@@ -31,9 +31,14 @@ esp32-aeroponics-controller/
 
 ## Пины и настройки
 В проекте используются данные, но можете заменить на свои:
-```bash
-const int pumpPin      = 25;
-const int redLEDPin    = 26;
-const int blueLEDPin   = 27;
-const int whiteLEDPin  = 14;
-//PWM (ШИМ): частота 5 kHz, разрешение 8 бит
+   ```bash
+   const int pumpPin      = 25;
+   const int redLEDPin    = 26;
+   const int blueLEDPin   = 27;
+   const int whiteLEDPin  = 14;
+   //PWM (ШИМ): частота 5 kHz, разрешение 8 бит
+   ```
+## Режимы работы
+- Автоматический: интервалы полива, расписание включения лент.
+- Регулируемый: яркость и интервалы полива задаются вручную.
+- Прямое управление: прямые команды ВКЛ/ВЫКЛ через кнопки веб‑интерфейса.
