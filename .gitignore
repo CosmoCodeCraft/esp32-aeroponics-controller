@@ -1,11 +1,16 @@
 # Arduino
-build/
+*.build
 *.elf
 *.bin
 *.hex
+*.eep
 
-# VSCode
+# PlatformIO
+.pio/
 .vscode/
+.env
 
-# MacOS
+# Logs and OS files
+*.log
 .DS_Store
+Thumbs.db
