@@ -16,8 +16,6 @@ ESP32‑контроллер для аэропонной фермы с:
 esp32-aeroponics-controller/  
 ├── LICENSE  
 ├── README.md  
-├── CHANGELOG.md  
-├── CONTRIBUTING.md  
 ├── .gitignore  
 ├── docs/  
 │   └── web-ui-screenshot.png  
