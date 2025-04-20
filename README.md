@@ -31,8 +31,9 @@ esp32-aeroponics-controller/
 
 ## Пины и настройки
 В проекте используются данные, но можете заменить на свои:
+```bash
 const int pumpPin      = 25;
 const int redLEDPin    = 26;
 const int blueLEDPin   = 27;
 const int whiteLEDPin  = 14;
-PWM (ШИМ): частота 5 kHz, разрешение 8 бит
+//PWM (ШИМ): частота 5 kHz, разрешение 8 бит
