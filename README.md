@@ -18,9 +18,11 @@ esp32-aeroponics-controller/
 ├── README.md  
 ├── .gitignore  
 ├── src/  
-│   └── main.ino  
+│ └── main.ino  
 └── docs/  
-    └── web-ui-screenshot.png
+  ├── Screenshot_Auto_Mode.jpg  
+  ├── Screenshot_Adjustable_Mode.jpg    
+  └── Screenshot_DirectControl_Mode.jpg
 
 ## Быстрый старт
 1. Клонировать репозиторий:
